@@ -1,0 +1,45 @@
+.body{
+    width: 1000px;
+    background-color:#eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+.body div{
+    text-align: center;
+    color: black;
+    padding : 15px 0;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    margin-left: 15px;
+    float: left;   
+}
+
+
+.one{
+    width: calc(100% - 30px);
+    background-color: #dddddd;
+}
+
+
+.two{
+    width: calc((100% - 60px) / 3);
+    background-color: #dddddd;
+}
+
+
+.three{
+    width: calc((100% - 45px) / 2);
+    background-color: #dddddd;
+}
+
+
+.four{
+    width: calc((100% - 75px) / 4);
+    background-color: #dddddd;
+}
+
+
+.clear{
+    clear: both;
+}

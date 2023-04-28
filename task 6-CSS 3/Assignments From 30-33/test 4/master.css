@@ -1,0 +1,38 @@
+table{
+    width: 700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    border: none;
+    border-spacing: 0;
+}
+
+.A{
+    background-color: #000000db;
+    color: white;
+}
+
+table td, table th{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+.View, .Delete{
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+.View{
+    background-color:#2196f3;
+}    
+
+.Delete{
+    background-color: #e91e63;
+}
+
+.img{
+    padding: 10px 20px;
+}
