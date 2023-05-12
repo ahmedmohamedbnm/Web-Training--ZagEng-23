@@ -1,0 +1,35 @@
+.parent{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    display: flex;;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+div{
+    height: calc(90% / 3);
+    background-color: #009688;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    width: 30px;
+    align-self: flex-end;
+}
+
+.two{
+    width: calc(50%);
+    align-self: flex-start;
+}
+
+.three{
+    width: 30px;
+    align-self: flex-end;
+}
